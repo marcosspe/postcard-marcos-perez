@@ -1,0 +1,50 @@
+body {
+	background: black;
+	font-family: indie flower;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	margin: 10px;
+	margin-bottom: -10px;
+}
+img {
+	margin-top: 10px;
+	width: 15%;
+	height: 15%;
+}
+h1 {
+	width: 100%;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	margin-top: -10px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.body-right {
+	font-size: 80%;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: turquoise;
+}
+hr {
+	margin-top: -5%;
+	margin-left: -1%;
+}
+.postcard-footer {
+	margin-top: -8px;
+	text-align: center;
+}
+button {
+	background-color: darkgray;
+	font-family: indie flower;
+	border-style: hidden;
+}
